@@ -1,0 +1,397 @@
+<?xml version = '1.0' encoding = 'ISO-8859-1'?>
+<!-- <!DOCTYPE XMI SYSTEM 'Model1311.DTD' > -->
+<XMI xmi.version = '1.1' xmlns:Model='http://omg.org/mof.Model/1.3' timestamp = 'Fri May 14 15:48:06 2021' >
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>Unisys.JCR.1</XMI.exporter>
+   <XMI.exporterVersion>1.3.6</XMI.exporterVersion>
+  </XMI.documentation>
+  <XMI.metamodel xmi.name = 'org.omg.mof.Model' xmi.version = '1.3'/>
+ </XMI.header>
+<XMI.content>
+<!-- ==================== 表示层包    [Package] ==================== -->
+<Model:Package xmi.id = 'a4E282D4901D4' xmi.uuid = '4E282D4901D4' 
+  name = '&#x00b1;&#x00ed;&#x00ca;&#x00be;&#x00b2;&#x00e3;&#x00b0;&#x00fc;' annotation = '' 
+  isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' >
+  <Model:Namespace.contents>
+    <!-- ==================== 表示层包.userRegister    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E282DD7034B' xmi.uuid = '4E282DD7034B' 
+      name = 'userRegister' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 表示层包.com.urep.jcr.transient=true    [Tag] ==================== -->
+    <Model:Tag xmi.id = 'G.37' 
+      name = 'com.urep.jcr.transient=true' annotation = '' 
+      tagId = 'com.urep.jcr.transient' 
+      elements = 'a4E282DD7034B a4E2834FC004E a4E28384802BF a4E283E99029F a4E28DF9B02CE a4E28E386000F a4E28E725006D a4E296DF6035B a4E296EC70119 a4E296EF80157 a4E296F8B005D' >
+      <Model:Tag.values>
+        <XMI.any xmi.type = 'string' xmi.name = ''>true</XMI.any>
+      </Model:Tag.values>
+    </Model:Tag>
+    <!-- ==================== 表示层包.userLogin    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E2834FC004E' xmi.uuid = '4E2834FC004E' 
+      name = 'userLogin' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 表示层包.updateUserInfo    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E28384802BF' xmi.uuid = '4E28384802BF' 
+      name = 'updateUserInfo' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 表示层包.shoppingCart    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E283E99029F' xmi.uuid = '4E283E99029F' 
+      name = 'shoppingCart' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 表示层包.userAccount    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E28DF9B02CE' xmi.uuid = '4E28DF9B02CE' 
+      name = 'userAccount' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 表示层包.goodsInfoManage    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E28E386000F' xmi.uuid = '4E28E386000F' 
+      name = 'goodsInfoManage' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 表示层包.logOut    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E28E725006D' xmi.uuid = '4E28E725006D' 
+      name = 'logOut' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 表示层包.showOrderInfo    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E296DF6035B' xmi.uuid = '4E296DF6035B' 
+      name = 'showOrderInfo' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 表示层包.showGoodsInfo    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E296EC70119' xmi.uuid = '4E296EC70119' 
+      name = 'showGoodsInfo' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 表示层包.showUserInfo    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E296EF80157' xmi.uuid = '4E296EF80157' 
+      name = 'showUserInfo' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 表示层包.MainForm    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E296F8B005D' xmi.uuid = '4E296F8B005D' 
+      name = 'MainForm' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+  </Model:Namespace.contents>
+</Model:Package>
+<!-- ==================== 控制层包    [Package] ==================== -->
+<Model:Package xmi.id = 'a4E282D57000F' xmi.uuid = '4E282D57000F' 
+  name = '&#x00bf;&#x00d8;&#x00d6;&#x00c6;&#x00b2;&#x00e3;&#x00b0;&#x00fc;' annotation = '' 
+  isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' >
+  <Model:Namespace.contents>
+    <!-- ==================== 控制层包.ActionServlet    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E282E1B0271' xmi.uuid = '4E282E1B0271' 
+      name = 'ActionServlet' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 控制层包.com.urep.jcr.transient=true    [Tag] ==================== -->
+    <Model:Tag xmi.id = 'G.38' 
+      name = 'com.urep.jcr.transient=true' annotation = '' 
+      tagId = 'com.urep.jcr.transient' 
+      elements = 'a4E282E1B0271 a4E282E6F01C5 a4E283ED50138 a4E28E78B01A5 a4E296B6003A9' >
+      <Model:Tag.values>
+        <XMI.any xmi.type = 'string' xmi.name = ''>true</XMI.any>
+      </Model:Tag.values>
+    </Model:Tag>
+    <!-- ==================== 控制层包.UserManageAction    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E282E6F01C5' xmi.uuid = '4E282E6F01C5' 
+      name = 'UserManageAction' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 控制层包.GoodsManageAction    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E283ED50138' xmi.uuid = '4E283ED50138' 
+      name = 'GoodsManageAction' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 控制层包.UserInfoAction    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E28E78B01A5' xmi.uuid = '4E28E78B01A5' 
+      name = 'UserInfoAction' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 控制层包.OrderManageAction    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E296B6003A9' xmi.uuid = '4E296B6003A9' 
+      name = 'OrderManageAction' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+  </Model:Namespace.contents>
+</Model:Package>
+<!-- ==================== 业务层包    [Package] ==================== -->
+<Model:Package xmi.id = 'a4E282D63031C' xmi.uuid = '4E282D63031C' 
+  name = '&#x00d2;&#x00b5;&#x00ce;&#x00f1;&#x00b2;&#x00e3;&#x00b0;&#x00fc;' annotation = '' 
+  isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' >
+  <Model:Namespace.contents>
+    <!-- ==================== 业务层包.UserManage    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E282EA0002E' xmi.uuid = '4E282EA0002E' 
+      name = 'UserManage' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 业务层包.com.urep.jcr.transient=true    [Tag] ==================== -->
+    <Model:Tag xmi.id = 'G.39' 
+      name = 'com.urep.jcr.transient=true' annotation = '' 
+      tagId = 'com.urep.jcr.transient' 
+      elements = 'a4E282EA0002E a4E28E3F20177 a4E29678D03C8 a4E29679B0203' >
+      <Model:Tag.values>
+        <XMI.any xmi.type = 'string' xmi.name = ''>true</XMI.any>
+      </Model:Tag.values>
+    </Model:Tag>
+    <!-- ==================== 业务层包. GoodsManage    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E28E3F20177' xmi.uuid = '4E28E3F20177' 
+      name = ' GoodsManage' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 业务层包.OrderManage    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E29678D03C8' xmi.uuid = '4E29678D03C8' 
+      name = 'OrderManage' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 业务层包.ShoppingCartManage    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E29679B0203' xmi.uuid = '4E29679B0203' 
+      name = 'ShoppingCartManage' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+  </Model:Namespace.contents>
+</Model:Package>
+<!-- ==================== 数据访问层包    [Package] ==================== -->
+<Model:Package xmi.id = 'a4E282D6E03A9' xmi.uuid = '4E282D6E03A9' 
+  annotation = '' 
+  isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' >
+  <Model:ModelElement.name>&#x00ca;&#x00fd;&#x00be;&#x00dd;&#x00b7;&#x00c3;&#x00ce;&#x00ca;&#x00b2;&#x00e3;&#x00b0;&#x00fc;</Model:ModelElement.name>
+  <Model:Namespace.contents>
+    <!-- ==================== 数据访问层包.OperateDB    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E282EF5001F' xmi.uuid = '4E282EF5001F' 
+      name = 'OperateDB' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 数据访问层包.com.urep.jcr.transient=true    [Tag] ==================== -->
+    <Model:Tag xmi.id = 'G.40' 
+      name = 'com.urep.jcr.transient=true' annotation = '' 
+      tagId = 'com.urep.jcr.transient' 
+      elements = 'a4E282EF5001F a4E282F1B0167 a4E28E84E005D a4E29494903B9 a4E2949C0033C a4E2949E50222 a4E2949F50271 a4E2965D7036B' >
+      <Model:Tag.values>
+        <XMI.any xmi.type = 'string' xmi.name = ''>true</XMI.any>
+      </Model:Tag.values>
+    </Model:Tag>
+    <!-- ==================== 数据访问层包.ConnectDB    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E282F1B0167' xmi.uuid = '4E282F1B0167' 
+      name = 'ConnectDB' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 数据访问层包.UserInfo    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E28E84E005D' xmi.uuid = '4E28E84E005D' 
+      name = 'UserInfo' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 数据访问层包.RegisterUserInfo    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E29494903B9' xmi.uuid = '4E29494903B9' 
+      name = 'RegisterUserInfo' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' 
+      supertypes = 'a4E28E84E005D' >
+      <Model:Namespace.contents>
+        <!-- ==================== 数据访问层包.RegisterUserInfo.orderInfo    [Reference] ==================== -->
+        <Model:Reference xmi.id = 'ra4E294D1A0280' 
+          name = 'orderInfo' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          type = 'a4E2949F50271' 
+          referencedEnd = 'a4E294D1A0280' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Reference>
+      </Model:Namespace.contents>
+    </Model:Class>
+    <!-- ==================== 数据访问层包.AdminUserInfo    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E2949C0033C' xmi.uuid = '4E2949C0033C' 
+      name = 'AdminUserInfo' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' 
+      supertypes = 'a4E28E84E005D' >
+      <Model:Namespace.contents>
+        <!-- ==================== 数据访问层包.AdminUserInfo.registerUserInfo    [Reference] ==================== -->
+        <Model:Reference xmi.id = 'ra4E294CF9031C' 
+          name = 'registerUserInfo' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          type = 'a4E29494903B9' 
+          referencedEnd = 'a4E294CF9031C' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '1' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Reference>
+        <!-- ==================== 数据访问层包.AdminUserInfo.goodsInfo    [Reference] ==================== -->
+        <Model:Reference xmi.id = 'ra4E294CFE03A9' 
+          name = 'goodsInfo' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          type = 'a4E2949E50222' 
+          referencedEnd = 'a4E294CFE03A9' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '1' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Reference>
+        <!-- ==================== 数据访问层包.AdminUserInfo.orderInfo    [Reference] ==================== -->
+        <Model:Reference xmi.id = 'ra4E294D0403B9' 
+          name = 'orderInfo' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          type = 'a4E2949F50271' 
+          referencedEnd = 'a4E294D0403B9' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Reference>
+      </Model:Namespace.contents>
+    </Model:Class>
+    <!-- ==================== 数据访问层包.GoodsInfo    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E2949E50222' xmi.uuid = '4E2949E50222' 
+      name = 'GoodsInfo' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 数据访问层包.OrderInfo    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E2949F50271' xmi.uuid = '4E2949F50271' 
+      name = 'OrderInfo' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 数据访问层包.ExceptionDB    [Class] ==================== -->
+    <Model:Class xmi.id = 'a4E2965D7036B' xmi.uuid = '4E2965D7036B' 
+      name = 'ExceptionDB' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+    </Model:Class>
+    <!-- ==================== 数据访问层包.A_registerUserInfo_adminUserInfo    [Association] ==================== -->
+    <Model:Association xmi.id = 'a4E294CF003C8' xmi.uuid = '4E294CF003C8' 
+      name = 'A_registerUserInfo_adminUserInfo' annotation = '' 
+      isRoot = 'true' isLeaf = 'true' isAbstract = 'false' visibility = 'public_vis' 
+      isDerived = 'false' >
+      <Model:Namespace.contents>
+        <Model:AssociationEnd xmi.id = 'a4E294CF9031C' xmi.uuid = '4E294CF9031C' 
+          name = 'registerUserInfo' annotation = '' 
+          isNavigable = 'true' aggregation = 'none' isChangeable = 'true' 
+          type = 'a4E29494903B9' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '1' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+        <Model:AssociationEnd xmi.id = 'a4E294CF9031E' xmi.uuid = '4E294CF9031E' 
+          name = 'adminUserInfo' annotation = '' 
+          isNavigable = 'false' aggregation = 'none' isChangeable = 'true' 
+          type = 'a4E2949C0033C' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+      </Model:Namespace.contents>
+    </Model:Association>
+    <!-- ==================== 数据访问层包.A_goodsInfo_adminUserInfo    [Association] ==================== -->
+    <Model:Association xmi.id = 'a4E294CFD0222' xmi.uuid = '4E294CFD0222' 
+      name = 'A_goodsInfo_adminUserInfo' annotation = '' 
+      isRoot = 'true' isLeaf = 'true' isAbstract = 'false' visibility = 'public_vis' 
+      isDerived = 'false' >
+      <Model:Namespace.contents>
+        <Model:AssociationEnd xmi.id = 'a4E294CFE03A9' xmi.uuid = '4E294CFE03A9' 
+          name = 'goodsInfo' annotation = '' 
+          isNavigable = 'true' aggregation = 'none' isChangeable = 'true' 
+          type = 'a4E2949E50222' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '1' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+        <Model:AssociationEnd xmi.id = 'a4E294CFE03AB' xmi.uuid = '4E294CFE03AB' 
+          name = 'adminUserInfo' annotation = '' 
+          isNavigable = 'false' aggregation = 'none' isChangeable = 'true' 
+          type = 'a4E2949C0033C' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+      </Model:Namespace.contents>
+    </Model:Association>
+    <!-- ==================== 数据访问层包.A_orderInfo_adminUserInfo    [Association] ==================== -->
+    <Model:Association xmi.id = 'a4E294D03035B' xmi.uuid = '4E294D03035B' 
+      name = 'A_orderInfo_adminUserInfo' annotation = '' 
+      isRoot = 'true' isLeaf = 'true' isAbstract = 'false' visibility = 'public_vis' 
+      isDerived = 'false' >
+      <Model:Namespace.contents>
+        <Model:AssociationEnd xmi.id = 'a4E294D0403B9' xmi.uuid = '4E294D0403B9' 
+          name = 'orderInfo' annotation = '' 
+          isNavigable = 'true' aggregation = 'none' isChangeable = 'true' 
+          type = 'a4E2949F50271' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+        <Model:AssociationEnd xmi.id = 'a4E294D0403BB' xmi.uuid = '4E294D0403BB' 
+          name = 'adminUserInfo' annotation = '' 
+          isNavigable = 'false' aggregation = 'none' isChangeable = 'true' 
+          type = 'a4E2949C0033C' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+      </Model:Namespace.contents>
+    </Model:Association>
+    <!-- ==================== 数据访问层包.A_orderInfo_registerUserInfo    [Association] ==================== -->
+    <Model:Association xmi.id = 'a4E294D190290' xmi.uuid = '4E294D190290' 
+      name = 'A_orderInfo_registerUserInfo' annotation = '' 
+      isRoot = 'true' isLeaf = 'true' isAbstract = 'false' visibility = 'public_vis' 
+      isDerived = 'false' >
+      <Model:Namespace.contents>
+        <Model:AssociationEnd xmi.id = 'a4E294D1A0280' xmi.uuid = '4E294D1A0280' 
+          name = 'orderInfo' annotation = '' 
+          isNavigable = 'true' aggregation = 'none' isChangeable = 'true' 
+          type = 'a4E2949F50271' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+        <Model:AssociationEnd xmi.id = 'a4E294D1A0282' xmi.uuid = '4E294D1A0282' 
+          name = 'registerUserInfo' annotation = '' 
+          isNavigable = 'false' aggregation = 'none' isChangeable = 'true' 
+          type = 'a4E29494903B9' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+      </Model:Namespace.contents>
+    </Model:Association>
+  </Model:Namespace.contents>
+</Model:Package>
+<!-- ==================== 错误信息处理包    [Package] ==================== -->
+<Model:Package xmi.id = 'a4E282D8102EE' xmi.uuid = '4E282D8102EE' 
+  name = '&#x00b4;&#x00ed;&#x00ce;&#x00f3;&#x00d0;&#x00c5;&#x00cf;&#x00a2;&#x00b4;&#x00a6;&#x00c0;&#x00ed;&#x00b0;&#x00fc;' annotation = '' 
+  isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' >
+</Model:Package>
+</XMI.content>
+</XMI>

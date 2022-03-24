@@ -1,0 +1,7 @@
+Warning: A symbol (Object {4E282FCB030D}) in scenario diagram "p17 - 普通用户注册协作图" duplicates a symbol in another diagram with a different name (p17 - 普通用户注册序列图).  These diagram s are assumed to be F5-related.
+Warning: A symbol (Object {4E2834CA02AF}) in scenario diagram "p18 - 注册会员登录协作图" duplicates a symbol in another diagram with a different name (p18 - 注册会员登录序列图).  These diagram s are assumed to be F5-related.
+Warning: A symbol (Object {4E28386300DA}) in scenario diagram "p19 - 注册会员修改注册信息协作图" duplicates a symbol in another diagram with a different name (p19 - 注册会员修改注册信息序列图).  These diagram s are assumed to be F5-related.
+Warning: A symbol (Object {4E283DBE0242}) in scenario diagram "p20 - 注册会员添加购物车协作图" duplicates a symbol in another diagram with a different name (p20 - 注册会员添加购物车序列图).  These diagram s are assumed to be F5-related.
+Warning: A symbol (Object {4E28DFDA00EA}) in scenario diagram "p21 - 注册会员账户管理协作图" duplicates a symbol in another diagram with a different name (p21 - 注册会员账户管理序列图).  These diagram s are assumed to be F5-related.
+Warning: A symbol (Object {4E28E41A01E4}) in scenario diagram "p22 - 管理员管理商品协作图" duplicates a symbol in another diagram with a different name (p22 - 管理员管理商品序列图).  These diagram s are assumed to be F5-related.
+Warning: A symbol (Object {4E28E8990271}) in scenario diagram "p23 - 注册会员在线注销协作图" duplicates a symbol in another diagram with a different name (p23 - 注册会员在线注销序列图).  These diagram s are assumed to be F5-related.
